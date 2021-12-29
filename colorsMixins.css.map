@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIkE,sEAAsE",
+    "sources": [
+        "colorsMixins.scss"
+    ],
+    "names": [],
+    "file": "colorsMixins.css"
+}

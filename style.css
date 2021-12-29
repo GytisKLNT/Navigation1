@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body {
+  background-color: #a84c28;
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  margin-top: 100px;
+  width: 100%;
+  height: 250px;
+  background-color: #357faa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  width: 100px;
+  border-right: 1px solid black;
+  background-color: #357faa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon .box {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  margin-left: 40px;
+  background-color: white;
+  display: none;
+  font-size: 10px;
+}
+
+.icon:hover, .icon:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffc0cb), to(#800080));
+  background: linear-gradient(to bottom, #ffc0cb, #800080);
+  width: 350px;
+}
+
+.icon:hover img, .icon:focus img {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon:hover .box, .icon:focus .box {
+  display: block;
+}
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*# sourceMappingURL=style.css.map */
